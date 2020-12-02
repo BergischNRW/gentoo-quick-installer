@@ -20,10 +20,10 @@
 
 set -e
 
-GENTOO_MIRROR="http://distfiles.gentoo.org"
+GENTOO_MIRROR="https://ftp.halifax.rwth-aachen.de/gentoo"
 
 GENTOO_ARCH="amd64"
-GENTOO_STAGE3="amd64"
+GENTOO_STAGE3="amd64-musl-hardened"
 
 TARGET_DISK=/dev/sda
 
